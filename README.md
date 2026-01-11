@@ -46,3 +46,13 @@ Download model and dataset from:
 ### Install dependencies
 ```bash
 pip install -r requirements.txt
+2️⃣ Run Streamlit app
+streamlit run streamlit_app.py
+
+📸 Output
+
+Green box → REAL
+
+Red box → FAKE
+
+Yellow box → UNCERTAIN
