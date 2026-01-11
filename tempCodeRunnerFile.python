@@ -1,0 +1,14 @@
+from flask import Flask, render_template, request
+import tensorflow as tf
+import cv2
+import numpy as np
+
+app = Flask(__name__)
+model = tf.keras.models.load_model("Models/fake_face_model.h5")
+
+@app.route("/", methods=["GET", "POST"])
+def index():
+    return "Fake Face Guard is Running 🚀"
+
+if __name__ == "__main__":
+    app.run(debug=True)
