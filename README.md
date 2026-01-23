@@ -20,14 +20,14 @@ Fake Face Guard is a real-time AI-based face authenticity detection system that 
 ## 📂 Project Structure
 
 fake-face-guard/
-│── streamlit_app.py
-│── camera_live.py
-│── camera_test.py
-│── camera_index_test.py
-│── webcam_test.py
-│── requirements.txt
-│── Models/ (ignored)
-│── Dataset/ (ignored)
+│─ streamlit_app.py
+│─ camera_live.py
+│─ camera_test.py
+│─ camera_index_test.py
+│─ webcam_test.py
+│─ requirements.txt
+│─ Models/ (ignored)
+│─ Dataset/ (ignored)
 
 
 ## ⚠️ Important Note
